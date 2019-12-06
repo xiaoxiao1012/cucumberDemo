@@ -12,7 +12,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
                 "rerun:target/rerun.txt",
                 "json:target/cucumber.json"
                },
-        tags={"~@2"},
+        tags={"@Automation"},
         glue={"com.MyStepdefs"}
 )
 public class RunTest extends AbstractTestNGCucumberTests{
